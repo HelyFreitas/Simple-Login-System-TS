@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/profile" element={<ProtectedLayout><h1>Olá vc está logado</h1></ProtectedLayout>} />
 
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>
